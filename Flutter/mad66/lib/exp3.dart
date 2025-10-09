@@ -6,6 +6,20 @@
 
 import 'package:flutter/material.dart';
 
+// Wrapper for Experiment 3
+class Exp3 extends StatelessWidget {
+  const Exp3({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return const MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: AllTasksScreen(),
+    );
+  }
+}
+
+// The actual experiment content (previously Exp1)
 class Exp1 extends StatelessWidget {
   const Exp1({super.key});
 

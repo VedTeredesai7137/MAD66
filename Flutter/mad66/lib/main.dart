@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
   // 🔥 Switch the current experiment here:
-  final Widget currentExperiment = const Exp3(); // Exp1, Exp2, Exp4, Exp5
+  final Widget currentExperiment = const Exp8(); // Exp1, Exp2, Exp4, Exp5
 
   @override
   Widget build(BuildContext context) {
