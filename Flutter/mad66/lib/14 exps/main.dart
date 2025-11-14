@@ -505,7 +505,7 @@ widget_test.dart
 
 import 'package:flutter_test/flutter_test.dart';
 import 'package:flutter/material.dart';
-import 'package:your_app_name/main.dart'; // replace with your actual package name
+import 'package:your_app_name/main.dart'; // replace with your actual package name (with pubsec.yaml name: flutter_app)
 
 void main() {
   testWidgets('Main app shows Hello text', (WidgetTester tester) async {
